@@ -1,0 +1,136 @@
+header{
+ 
+ 	font-family: courier;
+ 	background-color: lightgray;
+ 	padding-bottom: 20px;
+}
+
+
+header .nav-link {
+	color: white;
+	font-size: 30px;
+	margin-top: 15px;
+}
+
+.naslov{
+	text-align: center;
+	margin: 3% auto 2% auto;
+	border-bottom: 1.5px solid 	rgb(99, 91, 91);
+    width: 30%;
+}
+.responsive{
+  	width: 80%;
+  	display: block;
+  	margin: 5% auto 10% auto;
+  	box-shadow: 9px 9px 7px gray;
+}
+
+.slika-cigara{
+	width: 80%;
+	display: block;
+	box-shadow: 9px 9px 7px gray;
+	margin: 5% auto 0 auto;
+}
+
+.slika-laura{
+	width: 80%;
+	display: block;
+	box-shadow: 9px 9px 7px gray;
+	margin: 3% auto 5% auto;
+}
+
+header ul li {
+	padding: 15px;
+}
+
+body p{
+	text-align: center;
+}
+body{
+	background-color: white;
+	margin: 0;
+}
+
+header ul li a{
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+
+/* Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 40px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+#footer {
+    background: #007b5e !important;
+}
+
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    -webkit-text-decoration-skip: objects;
+}
+
+#footer ul.social li a i {
+    margin-right: 5px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	margin-top:-10px;
+}
+
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+
+section p {
+	text-align: center; 
+	font-size: 20px;
+	color: white;
+}
+.crta{
+	margin-bottom: 1%;
+	width: 50%;
+	margin: auto;
+	margin-bottom: 1%;
+}
+
+
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+/* Footer */
+
+.logo{
+	width: 77px;
+	height: 111px;
+    float: left;
+    margin-top: 0.5%;
+    margin-left: 10%;
+    margin-right: -10%;
+}
+
